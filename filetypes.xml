@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="*.conf.erb" type="Ini" />
+      <mapping ext="ctp" type="PHP" />
+      <mapping pattern="_vimrc" type="PLAIN_TEXT" />
+      <mapping pattern="MwsRequest使用アカウント" type="PLAIN_TEXT" />
+      <mapping pattern="Gemfile" type="PLAIN_TEXT" />
+      <mapping pattern="normal_jp" type="PLAIN_TEXT" />
+      <mapping pattern=".bash_history" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="3" type="PLAIN_TEXT" />
+      <mapping ext="erb" type="PLAIN_TEXT" />
+      <mapping ext="4" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

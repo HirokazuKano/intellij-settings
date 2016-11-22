@@ -1,0 +1,61 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.js" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compresses .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="YUI Compressor JS" />
+      <option name="output" value="$FileNameWithoutExtension$.min.js" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="C:/Program Files (x86)/yuicompressor/yuicompressor-2.4.8.jar" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compresses .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="css" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="YUI Compressor CSS" />
+      <option name="output" value="$FileNameWithoutExtension$.min.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="C:/Program Files (x86)/yuicompressor/yuicompressor-2.4.8.jar" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="C:\Users\Hirokazu\vagrant\centos-6.7-dev\application\revisionrank_usa_ex\app\webroot\assets\custom" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--compilation_level SIMPLE_OPTIMIZATIONS --js $FileName$ --source_map_format=V3 --create_source_map $FileNameWithoutExtension$.min.js.map --output_wrapper &quot;%output%// sourceMappingURL=$FileNameWithoutExtension$.min.js.map&quot;" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Closure Compiler" />
+      <option name="output" value="$FileNameWithoutExtension$.min.js" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="C:/Program Files (x86)/closure-compiler/closure-compiler-v20160822.jar" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="C:\Users\Hirokazu\vagrant\centos-6.7-dev\application\revisionrank_usa_ex\app\webroot\assets\custom" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
