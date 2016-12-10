@@ -6,7 +6,7 @@
       <option name="description" value="Compresses .js files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
-      <option name="immediateSync" value="true" />
+      <option name="immediateSync" value="false" />
       <option name="name" value="YUI Compressor JS" />
       <option name="output" value="$FileNameWithoutExtension$.min.js" />
       <option name="outputFilters">
@@ -25,7 +25,7 @@
       <option name="description" value="Compresses .css files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="css" />
-      <option name="immediateSync" value="true" />
+      <option name="immediateSync" value="false" />
       <option name="name" value="YUI Compressor CSS" />
       <option name="output" value="$FileNameWithoutExtension$.min.css" />
       <option name="outputFilters">
@@ -35,7 +35,7 @@
       <option name="program" value="C:/Program Files (x86)/yuicompressor/yuicompressor-2.4.8.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="C:\Users\Hirokazu\vagrant\centos-6.7-dev\application\revisionrank_usa_ex\app\webroot\assets\custom" />
+      <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
